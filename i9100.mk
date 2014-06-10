@@ -51,3 +51,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
 
 $(call inherit-product-if-exists, vendor/samsung/i9100/i9100-vendor.mk)
+
+# divided-by-zero customizations
+$(call inherit-product-if-exists, vendor/divided-by-zero/divided-by-zero.mk)
+
+
